@@ -1,0 +1,376 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+	font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+	font-weight: 900;
+	text-shadow: 0 0 80px #494949;
+	font-size:40px;
+	}
+	
+h2 {
+	font-weight:400;
+	font-size:14px;
+	text-shadow: 0 0 4px #000, 0 0 6px #000;
+	width:100%;
+	max-width:300px;
+	margin:auto;
+	padding-bottom: 30px;
+	}
+	
+h3 {
+	font-size:18px;
+	font-style:italic;
+	text-shadow: 0 0 3px #000, 0 0 5px #000;
+	color:#FF7648;
+	
+	}	
+h4 {
+	font-style:italic;
+	font-weight:900;
+	max-width:400px;
+	margin:auto;
+	display:block;
+	}
+
+h5 {
+	padding:10px;}
+
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+a:link {
+    color:#FF7648;
+	font-weight:700;
+    background-color:#F5F5F5; opacity:0.9;
+    text-decoration: none;
+}
+
+a:visited {
+	font-weight:900;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FF7648;
+	font-weight:900;
+    background-color: transparent;
+    text-decoration: underline;
+}
+	
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/empieza.jpg);
+	background-size:cover;
+	color:#fff;
+	
+}
+.intro-section h1 {
+	color:#fff;
+	font-weight:800;
+	}
+
+ .intro-section img {
+	 height:100px;
+	 width:auto;
+	 }
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+	color:#FFFCFC;
+    text-align: center;
+	background-image:url(../images/lo%20basico.jpg);
+	background-size:cover;
+}
+
+	
+.consejos-section {
+    height: 100%;
+    padding-top: 150px;
+	color:#FFFCFC;
+    text-align: center;
+	background-image:url(../images/consejos.jpg);
+	background-size:cover;
+}
+
+ .consejos-section img {
+	 height:100px;
+	 width:auto;
+ }
+	
+ .paso1-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/tipo%20de%20escalada.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+	 
+ .paso2-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align:center;
+	background-image:url(../images/implementos%20arnes.jpg);
+	background-size:cover;
+	color:#FFFFFF;
+	 }
+ .paso3-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/cuerdas.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+ .paso4-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/boulderinclinado.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+ .paso5-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/core%20nucleo.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+	 
+ .paso6-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/brazos%20rectos%20rocas%20rojas.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+ .paso7-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/planifica%20tu%20ascenso%20arista%20de%20cascada.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+ .paso8-section {
+	height: 100%;
+    padding-top: 90px;
+    text-align: center;
+	background-image:url(../images/aprende%20la%20jerga.jpg);
+	background-size:cover;
+	color:#fff;
+	}
+
+ .paso9-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/realiza%20un%20salto%20seguro.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+
+ .paso10-section {
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/tipo%20de%20escalada.jpg);
+	background-size:cover;
+	color:#fff;
+	 }
+	
+ 
+ .about-section img {
+	 height:100px;
+	 width:auto;
+	 }
+
+
+.services-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/basaseachi.jpg);
+	color:#fff;
+	padding-bottom:20px;
+}
+.services-section h2 {
+	width:auto;
+    text-align: center;
+	color:#fff;
+}
+
+
+
+.services-section img {
+	 height:100px;
+	 width:auto;
+}
+
+.rocodromo-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/rocadromo.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.roca-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/roca.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.elmuro-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/el%20muro.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.kn-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/22kn.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.toka-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/toka.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.onyx-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/onyx.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.vmas-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/vmas%20eskala.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.potrerochico-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/potrero-chico-monterrey.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+.cuevachonta-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/cueva-del-chonta.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+.penoles-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/Penoles.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+.mineraldelchico-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/mineral-del-chico.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+
+.penadebernal-section {
+    height:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/pena-de-bernal.jpg);
+	color:#fff;
+	padding-bottom:20px;
+	background-size:cover;
+}
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image:url(../images/comunidad2.jpg);
+	background-size:cover;
+	color:#FFFFFF;
+    
+}
